@@ -1,9 +1,9 @@
 using System;
 
 class Entry{
-    private string _prompt;
-    private string _userResponse;
-    private DateTime _dateCreated;
+    public string _prompt;
+    public string _userResponse;
+    public DateTime _dateCreated;
 
     /* We created the Methods */
     public Entry(string _prompt, string _userResponse){
@@ -32,6 +32,6 @@ class Entry{
 
     public override string ToString()
     {
-        return $"\nDate: {_dateCreated}: \nPrompt: {_prompt} \nResponse: {_userResponse}";
+        return $"\nDate: {_dateCreated.ToShortDateString()} - Prompt: \n{_prompt} \n{_userResponse}";
     }
 }

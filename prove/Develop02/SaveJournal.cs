@@ -10,5 +10,6 @@ class SaveJournal{
                 _streamWriter.WriteLine(entry.ToString());
             }
         }
+
     }
 }
