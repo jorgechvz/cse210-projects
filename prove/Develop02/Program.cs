@@ -10,8 +10,10 @@ class Program
         SaveJournal _saveJournal = new SaveJournal();
         LoadJournal _loadJournal = new LoadJournal();
 
+        bool exit = false;
+
         /* We create a loop for the user's option. */
-        while (true)
+        while (exit != true)
         {
             /* We create a Journal's menu */
             
@@ -56,11 +58,8 @@ class Program
                     ProgressBar();
                     break;
                 case 5: 
+                    exit = true;
                     return;
-                /* If the user enter a incorrect option */
-                default:
-                    Console.WriteLine("Please choose a correct option");
-                    break;
             }
         }
 
@@ -80,4 +79,3 @@ class Program
         }
     }
 }
-

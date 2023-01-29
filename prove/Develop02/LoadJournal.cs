@@ -5,10 +5,12 @@ class LoadJournal{
     public Journal Load(string _filename){
 
         Journal _journal = new Journal();
+        /* Verify if the file exist */
         if (!File.Exists(_filename)){
             Console.WriteLine("The file no exist");
             return _journal;
         }
+        /* We create a loop to roam in the file */
         using (StreamReader _streamReader = new StreamReader(_filename))
         {
             while (!_streamReader.EndOfStream)
