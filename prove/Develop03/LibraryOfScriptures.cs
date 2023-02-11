@@ -97,10 +97,8 @@ class LibraryOfScriptures{
 
 /* LibraryOfScriptures class explained */
 /* 
-    This class is responsible for storing information about the Scriptures. The class contains a list of dictionaries that represent the scripts and the attributes associated with them.
-
-    The class has several methods, such as "AddScripture" which allows to add a new Script to the list, "GetScripturyById" which allows to get a specific Script by its ID, "RandomScripture" which returns a random Script from the list and "DisplayScriptures", which displays all the Scripts in the list on the console.
-
-    In addition, there are other methods that provide information about the list of Writes, such as the number of Writes in the list and the representation of a string reference for each Write.
+    This class is responsible for storing information about the scriptures. The class contains a list of dictionaries that represent the scriptures and the attributes associated with them.
+    The class has several methods, such as "AddScripture" which allows to add a new scripture to the list, "GetScripturyById" which allows to get a specific scripture by its ID, "RandomScripture" which returns a random scripture from the list and "DisplayScriptures", which displays all the scripture in the list on the console.
+    In addition, there are other methods that provide information about the list of Writes, such as the number of scriptures in the list and the representation of a string reference for each scripture.
 
  */
