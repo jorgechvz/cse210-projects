@@ -1,0 +1,29 @@
+{
+  "Goals": [
+    {
+      "$type": "EternalGoal, Develop05",
+      "Attempts": 1,
+      "TotalPoints": 200.0,
+      "TypeGoal": "Eternal Goal",
+      "NameGoal": "Read Scriptures",
+      "DescriptionGoal": "Read one chapter of my scriptures",
+      "PointsPerGoal": 200.0
+    },
+    {
+      "$type": "ChecklistGoal, Develop05",
+      "isCompleteAgain": false,
+      "TotalPoints": 1880.0,
+      "TotalPointsAgain": 0.0,
+      "RequieredAttempts": 4,
+      "Attempts": 4,
+      "BonusPoints": 1000.0,
+      "BonusPointsStart": 1000.0,
+      "isComplete": true,
+      "TypeGoal": "Checklist Goal",
+      "NameGoal": "Attend the temple",
+      "DescriptionGoal": "Attent the temple every month",
+      "PointsPerGoal": 220.0
+    }
+  ],
+  "RemovePoints": 400.0
+}

@@ -1,0 +1,63 @@
+{
+  "Goals": [
+    {
+      "$type": "SimpleGoal, Develop05",
+      "isCompleteAgain": false,
+      "isComplete": true,
+      "TotalPoints": 150.0,
+      "TypeGoal": "Simple Goal",
+      "NameGoal": "Wake up early",
+      "DescriptionGoal": "Wake up before 7:00 a.m.",
+      "PointsPerGoal": 150.0
+    },
+    {
+      "$type": "EternalGoal, Develop05",
+      "Attempts": 1,
+      "TotalPoints": 200.0,
+      "TypeGoal": "Eternal Goal",
+      "NameGoal": "Read the Scriptures",
+      "DescriptionGoal": "Read one chapter of Book Of Mormon",
+      "PointsPerGoal": 200.0
+    },
+    {
+      "$type": "ChecklistGoal, Develop05",
+      "isCompleteAgain": false,
+      "TotalPoints": 300.0,
+      "TotalPointsAgain": 0.0,
+      "RequieredAttempts": 3,
+      "Attempts": 1,
+      "BonusPoints": 1000.0,
+      "BonusPointsStart": 1000.0,
+      "isComplete": false,
+      "TypeGoal": "Checklist Goal",
+      "NameGoal": "Attent the Temple",
+      "DescriptionGoal": "Attent the Temple every month",
+      "PointsPerGoal": 300.0
+    },
+    {
+      "$type": "EternalGoal, Develop05",
+      "Attempts": 1,
+      "TotalPoints": 100.0,
+      "TypeGoal": "Eternal Goal",
+      "NameGoal": "Minister",
+      "DescriptionGoal": "Minister everyone",
+      "PointsPerGoal": 100.0
+    },
+    {
+      "$type": "ChecklistGoal, Develop05",
+      "isCompleteAgain": false,
+      "TotalPoints": 250.0,
+      "TotalPointsAgain": 0.0,
+      "RequieredAttempts": 3,
+      "Attempts": 1,
+      "BonusPoints": 1250.0,
+      "BonusPointsStart": 1250.0,
+      "isComplete": false,
+      "TypeGoal": "Checklist Goal",
+      "NameGoal": "Do my project",
+      "DescriptionGoal": "Do my project of Programming with Classes",
+      "PointsPerGoal": 250.0
+    }
+  ],
+  "RemovePoints": 460.0
+}
