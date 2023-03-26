@@ -1,12 +1,12 @@
 using System;
 using Newtonsoft.Json;
 
-public class Login {
+public class LoginUser{
     private string _userFilePath;
     private string _nameUser;
     private string _newUserName;
     private List<User> _usersList;
-    public Login(){
+    public LoginUser(){
         _userFilePath = "users.json";
     }
    

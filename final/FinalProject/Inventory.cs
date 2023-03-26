@@ -223,6 +223,7 @@ public class Inventory
             {
                if (products[i].GetType().Name == category)
                 {    
+                    exitProductCategory = true;
                     Console.WriteLine($" {i+1}. {products[i].GetProductName()}");
                 }
                 if(!exitProductCategory)
@@ -251,7 +252,7 @@ public class Inventory
             Console.WriteLine($"{productItem.GetProductName()} Price: {productItem.GetProductPrice()}");
         }
     }
-    public void SaveInventoryDate(List<Product> products, Inventory inventory)
+    public void SaveInventoryData(List<Product> products, Inventory inventory)
     {
 
     }
