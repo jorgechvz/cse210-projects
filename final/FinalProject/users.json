@@ -1,0 +1,34 @@
+[
+  {
+    "NameUser": "jorge",
+    "PasswordUser": "1234"
+  },
+  {
+    "NameUser": "ana",
+    "PasswordUser": "abcd"
+  },
+  {
+    "NameUser": "juan",
+    "PasswordUser": "pedro"
+  },
+  {
+    "NameUser": "pedro",
+    "PasswordUser": "12345"
+  },
+  {
+    "NameUser": "miguel",
+    "PasswordUser": "4567"
+  },
+  {
+    "NameUser": "admin1",
+    "PasswordUser": "dadad"
+  },
+  {
+    "NameUser": "admin2",
+    "PasswordUser": "12345"
+  },
+  {
+    "NameUser": "miguel",
+    "PasswordUser": "miguel"
+  }
+]
