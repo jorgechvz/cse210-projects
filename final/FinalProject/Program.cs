@@ -5,9 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Test of Login 
-        /* Login login = new Login();
-        login.Run(); */
+       
+        LoginUser login = new LoginUser();
+        login.Run();
         Inventory _inventory = new Inventory();
         bool _exitProgram = false;
         while (!_exitProgram)
