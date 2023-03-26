@@ -86,3 +86,4 @@ class Program
     }
 }
 
+/* For the progress of my project, I have created all the classes that I will need as their respective constructors, methods, getters and setters. I'm still working on completing some methods such as saving, loading of inventory data and override methods of the subclasses of the Product class. But I have already been able to build the main methods such as the method to create new products, remove them, show the products either all, by categories or prices. I have also implemented the LoginUser class where the login works correctly, as well as if the user does not exist, a new user can be created. I did this so that the users are saved in a json file. I also have a small structure of the program of how it will look at the beginning in the console. I feel that my program is already 60% complete. */
