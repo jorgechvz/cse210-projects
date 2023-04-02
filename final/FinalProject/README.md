@@ -9,7 +9,8 @@ The system will help streamline inventory management and minimize the risk of st
 
 
 ## Screenshots
-Include screenshots of the application.
+![Authentication](images/Login.png)
+![Login](images/Login_2.png)
 
 ## Getting Started
 Instructions on how to download, install, and run the application.
@@ -19,10 +20,10 @@ How to use the application.
 
 ## Technologies
 ***
-A list of technologies used within the project:
-* [Library name](ConsoleTableExt): Version 3.2 
-* [Library name](Newtonsoft.Json): Version 13.0.3
-* [Library name](ConsoleTables): Version 2.4.2
+A list of libraries used within the project:
+* [ConsoleTableExt](ConsoleTableExt): Version 3.2 
+* [Newtonsoft.Json](Newtonsoft.Json): Version 13.0.3
+* [ConsoleTables](ConsoleTables): Version 2.4.2
 
 ## Contributing
 Instructions on how to contribute to the project.
