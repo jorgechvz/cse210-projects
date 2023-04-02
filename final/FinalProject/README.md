@@ -30,11 +30,11 @@ The functionality is simple, when you run the program you will see that there ar
 ## Libraries
 A list of libraries used within the project:
 * [ConsoleTableExt](https://github.com/khalidabuhakmeh/ConsoleTables): Version 3.2 
-* [Newtonsoft.Json](Newtonsoft.Json): Version 13.0.3
-* [ConsoleTables](ConsoleTables): Version 2.4.2
-* [System.Security.Cryptography](System.Security.Cryptography)
-* [System.Text](System.Text)
-* [System.Globalization](System.Globalization)
+* [Newtonsoft.Json](https://www.newtonsoft.com/json): Version 13.0.3
+* [ConsoleTables](https://www.nuget.org/packages/ConsoleTables/): Version 2.4.2
+* [System.Security.Cryptography](https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography?view=net-8.0)
+* [System.Text](https://learn.microsoft.com/en-us/dotnet/api/system.text?view=net-7.0)
+* [System.Globalization](https://learn.microsoft.com/en-us/dotnet/api/system.globalization?view=net-7.0)
 
 ## Contributing
 This is a program under construction so you can help by giving me your comments on what I can improve or what features I can implement
