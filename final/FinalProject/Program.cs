@@ -23,7 +23,7 @@ class Program
                 Console.WriteLine(" 3. Remove Products");
                 Console.WriteLine(" 4. Edit Products");
                 Console.WriteLine(" 5. Sell Products");
-                Console.WriteLine(" 6. Save Inventary");
+                Console.WriteLine(" 6. Save Inventory");
                 Console.WriteLine(" 7. Exit");
                 Console.Write("\nPlease choose a option: ");
                 string _option = Console.ReadLine().ToLower();

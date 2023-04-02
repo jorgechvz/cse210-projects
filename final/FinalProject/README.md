@@ -6,7 +6,7 @@ The system will allow the store to manage its inventory efficiently by providing
 The system will help streamline inventory management and minimize the risk of stock-outs. Ultimately, this project aims to provide store owners with an intuitive, reliable and efficient tool to manage their inventory, allowing them to focus on growing their business and maximizing their profits.
 
 ## Features
-
+* Login Up
 
 ## Screenshots
 ![Authentication](images/Login.png)
