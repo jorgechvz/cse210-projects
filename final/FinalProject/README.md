@@ -27,8 +27,7 @@ To create a product you will have 4 categories which are clothing, food, technol
 In the clothing category you will have to be sure to put the expiration date as the production date in this format: MM/dd/yyyy hh:mm:ss . If you do not put it in that format, an error will appear when creating your product.
 The functionality is simple, when you run the program you will see that there are several prompts to help you what to do in each feature of the program.
 
-## Technologies
-***
+## Libraries
 A list of libraries used within the project:
 * [ConsoleTableExt](ConsoleTableExt): Version 3.2 
 * [Newtonsoft.Json](Newtonsoft.Json): Version 13.0.3
