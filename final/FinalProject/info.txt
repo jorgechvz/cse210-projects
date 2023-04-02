@@ -1,0 +1,10 @@
+Information about users and passwords to test the program
+
+
+User: jorge
+Email: jorgechvzpon@gmail.com
+Password: jorge
+
+User: admin01
+Email: ryder@gmail.com
+Password: admin01

@@ -1,0 +1,39 @@
+{
+  "Inventory": [
+    {
+      "$type": "FoodProduct, FinalProject",
+      "ProductionDate": "2023-01-12T13:15:59",
+      "ExpirationDate": "2023-06-12T13:15:59",
+      "ProductName": "Chicken",
+      "ProductPrice": 1.23,
+      "ProductQuantity": 50,
+      "ProductCategory": "Food Product"
+    },
+    {
+      "$type": "ClothingProduct, FinalProject",
+      "SizeClothes": "L",
+      "MaterialClothes": "cotton",
+      "ProductName": "Pants",
+      "ProductPrice": 25.6,
+      "ProductQuantity": 150,
+      "ProductCategory": "Clothing Product"
+    },
+    {
+      "$type": "ToolProduct, FinalProject",
+      "ToolType": "steel",
+      "MaterialTool": "steel",
+      "ProductName": "Hammer",
+      "ProductPrice": 5.26,
+      "ProductQuantity": 40,
+      "ProductCategory": "Tool Product"
+    },
+    {
+      "$type": "TechnologyProduct, FinalProject",
+      "BrandProduct": "Apple",
+      "ProductName": "Iphone 14",
+      "ProductPrice": 1000.25,
+      "ProductQuantity": 40,
+      "ProductCategory": "Technology Product"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Inventory": [
+    {
+      "$type": "ClothingProduct, FinalProject",
+      "SizeClothes": "L",
+      "MaterialClothes": "lana",
+      "ProductName": "T-shirt",
+      "ProductPrice": 2.34,
+      "ProductQuantity": 10,
+      "ProductCategory": "Clothing Product"
+    },
+    {
+      "$type": "ClothingProduct, FinalProject",
+      "SizeClothes": "cotton",
+      "MaterialClothes": "cotton",
+      "ProductName": "Scarf",
+      "ProductPrice": 1.3225,
+      "ProductQuantity": 10,
+      "ProductCategory": "Clothing Product"
+    }
+  ]
+}

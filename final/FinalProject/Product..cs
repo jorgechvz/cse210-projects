@@ -61,4 +61,17 @@ public abstract class Product
     public abstract float CalculatePrice();
     public abstract bool CheckAvailability();
     public abstract float CalculateDiscount();
+    public virtual void EditProduct()
+    {
+        Console.WriteLine("What do you want to edit?");
+        Console.WriteLine(" 1. Product Name");
+        Console.WriteLine(" 2. Product Price");
+        Console.WriteLine(" 3. Product Quantity");  
+    }
+
+    public string IsAvalaible()
+    {
+        return CheckAvailability() ? "Yes" : "No";
+    } 
+
 }

@@ -1,34 +1,18 @@
 [
   {
     "NameUser": "jorge",
-    "PasswordUser": "1234"
+    "PasswordUser": "Et3LRi275V5kGIbeA33eeQ==",
+    "FirstName": "Jorge",
+    "LastName": "Chavez",
+    "UserEmail": "jorgechvzpon@gmail.com",
+    "StoreName": "Bountiful Foods"
   },
   {
-    "NameUser": "ana",
-    "PasswordUser": "abcd"
-  },
-  {
-    "NameUser": "juan",
-    "PasswordUser": "pedro"
-  },
-  {
-    "NameUser": "pedro",
-    "PasswordUser": "12345"
-  },
-  {
-    "NameUser": "miguel",
-    "PasswordUser": "4567"
-  },
-  {
-    "NameUser": "admin1",
-    "PasswordUser": "dadad"
-  },
-  {
-    "NameUser": "admin2",
-    "PasswordUser": "12345"
-  },
-  {
-    "NameUser": "miguel",
-    "PasswordUser": "miguel"
+    "NameUser": "admin01",
+    "PasswordUser": "fmrID5yCOF+OQOXK3I0Z/g==",
+    "FirstName": "Ryder Holt",
+    "LastName": "Holt",
+    "UserEmail": "ryder@gmail.com",
+    "StoreName": "RyderTech"
   }
 ]
