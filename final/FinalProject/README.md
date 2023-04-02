@@ -21,7 +21,7 @@ The system will help streamline inventory management and minimize the risk of st
 ![Main Menu](images/Main_menu.png)
 
 ## Usage
-To use the program you must first do the authentication. You can see the user examples in this [File: info.txt](ruta/al/archivo.txt) or you can also create a new user to use the inventory.
+To use the program you must first do the authentication. You can see the user examples in this [File: info.txt](info.txt) or you can also create a new user to use the inventory.
 After that you can have access to the inventory menu where you can create, view, edit, remove, sell your products. Whenever you log into your account, your inventory data will automatically load but keep in mind that saving is not automatic so every time you want to update some important information in your inventory make sure you do the saving.
 To create a product you will have 4 categories which are clothing, food, technology and tools.
 In the clothing category you will have to be sure to put the expiration date as the production date in this format: MM/dd/yyyy hh:mm:ss . If you do not put it in that format, an error will appear when creating your product.
