@@ -29,12 +29,12 @@ The functionality is simple, when you run the program you will see that there ar
 
 ## Libraries
 A list of libraries used within the project:
-* [ConsoleTableExt](ConsoleTableExt): Version 3.2 
+* [ConsoleTableExt](https://github.com/khalidabuhakmeh/ConsoleTables): Version 3.2 
 * [Newtonsoft.Json](Newtonsoft.Json): Version 13.0.3
 * [ConsoleTables](ConsoleTables): Version 2.4.2
-* [System.Security.Cryptography]
-* [System.Text]
-* [System.Globalization]
+* [System.Security.Cryptography](System.Security.Cryptography)
+* [System.Text](System.Text)
+* [System.Globalization](System.Globalization)
 
 ## Contributing
 This is a program under construction so you can help by giving me your comments on what I can improve or what features I can implement
