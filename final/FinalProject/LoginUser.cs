@@ -43,7 +43,7 @@ public class LoginUser{
         bool exitProgram = false;
         while(!exitProgram)
         {
-            Console.WriteLine("Welcome to Inventory Systemy\n");
+            Console.WriteLine("Welcome to Inventory System\n");
             Console.WriteLine(" 1. Login Up");
             Console.WriteLine(" 2. Sign Up");
             Console.WriteLine(" 3. Exit");
