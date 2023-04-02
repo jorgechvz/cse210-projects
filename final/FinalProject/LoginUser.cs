@@ -92,7 +92,7 @@ public class LoginUser{
                     break;
                 case "3":
                     Console.WriteLine("Thanks for use the program");
-                    exitProgram = false;
+                    exitProgram = true;
                     break;  
                 default: // Default case if an invalid option is selected
                     Console.WriteLine("\nInvalid option. Please try again.");
