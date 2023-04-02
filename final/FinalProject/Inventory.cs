@@ -251,7 +251,7 @@ public class Inventory
                 foreach(Product productItem in product)
                 {
                     countProductIndex++;
-                    float priceWithDiscount = (productItem.CalculatePrice()*productItem.CalculateDiscount())+productItem.CalculatePrice();
+                    float priceWithDiscount = (productItem.CalculatePrice() * productItem.CalculateDiscount()) + productItem.CalculatePrice();
                     table.AddRow(countProductIndex, productItem.GetProductName(), productItem.GetProductCategory(),productItem.GetProductQuantity(),$"$ {productItem.GetProductPrice():F2}",$"$ {productItem.CalculateDiscount():F2}",$"$ {priceWithDiscount:F2}",productItem.IsAvalaible());
                 }
                 Console.WriteLine(table.ToString());
@@ -322,7 +322,7 @@ public class Inventory
                 if (products[i].GetType().Name == category)
                 {    
                     exitProductCategory = true;
-                    float priceWithDiscount = (products[i].CalculatePrice()*products[i].CalculateDiscount())+products[i].CalculatePrice();
+                    float priceWithDiscount = (products[i].CalculatePrice() * products[i].CalculateDiscount()) + products[i].CalculatePrice();
                     table.AddRow(i+1, products[i].GetProductName(),products[i].GetProductQuantity(),$"$ {products[i].GetProductPrice():F2}",$"$ {products[i].CalculateDiscount():F2}",$"$ {priceWithDiscount:F2}",products[i].IsAvalaible());
                 }
             }
@@ -344,7 +344,7 @@ public class Inventory
         foreach (Product productItem in sortedProduct)
         {
             countProductIndex++;
-            float priceWithDiscount = (productItem.CalculatePrice()*productItem.CalculateDiscount())+productItem.CalculatePrice();
+            float priceWithDiscount = (productItem.CalculatePrice() * productItem.CalculateDiscount()) + productItem.CalculatePrice();
             table.AddRow(countProductIndex, productItem.GetProductName(), productItem.GetProductCategory(),productItem.GetProductQuantity(),$"$ {productItem.GetProductPrice():F2}",$"$ {productItem.CalculateDiscount():F2}",$"$ {priceWithDiscount:F2}",productItem.IsAvalaible());
         }
         Console.WriteLine(table.ToString());
@@ -360,7 +360,7 @@ public class Inventory
         foreach (Product productItem in sortedProduct)
         {
             countProductIndex++;
-            float priceWithDiscount = (productItem.CalculatePrice()*productItem.CalculateDiscount())+productItem.CalculatePrice();
+            float priceWithDiscount = (productItem.CalculatePrice() * productItem.CalculateDiscount()) + productItem.CalculatePrice();
             table.AddRow(countProductIndex, productItem.GetProductName(), productItem.GetProductCategory(),productItem.GetProductQuantity(),$"$ {productItem.GetProductPrice():F2}",$"$ {productItem.CalculateDiscount():F2}",$"$ {priceWithDiscount:F2}",productItem.IsAvalaible());
         }
         Console.WriteLine(table.ToString());
