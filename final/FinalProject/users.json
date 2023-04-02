@@ -14,5 +14,21 @@
     "LastName": "Holt",
     "UserEmail": "ryder@gmail.com",
     "StoreName": "RyderTech"
+  },
+  {
+    "NameUser": "admin02",
+    "PasswordUser": "8fbpOUzwo4lq5UfHx1E/gQ==",
+    "FirstName": "Morgan",
+    "LastName": "Suarez",
+    "UserEmail": "morgan@gmail.com",
+    "StoreName": "MarganSt"
+  },
+  {
+    "NameUser": "admin03",
+    "PasswordUser": "HxGtYqj7Mb1uUU6K9HD+CA==",
+    "FirstName": "Alex",
+    "LastName": "McKenzie",
+    "UserEmail": "mckenzie@mcstore.com",
+    "StoreName": "AMcKenzieStore"
   }
 ]

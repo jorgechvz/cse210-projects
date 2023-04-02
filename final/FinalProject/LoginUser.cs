@@ -8,16 +8,16 @@ public class LoginUser{
     private string _nameUser;
     private string _newUserName;
     private bool _loginIsComplete;
-    private byte[] key;
-    private byte[] iv;
+    private byte[] _key;
+    private byte[] _iv;
     private string _storeName;
     private List<User> _usersList;
     public LoginUser()
     {
         _userFilePath = "users.json";
         _loginIsComplete = false;
-        key = Encoding.UTF8.GetBytes("mysecretkey12345");
-        iv = Encoding.UTF8.GetBytes("myiv123456789012");
+        _key = Encoding.UTF8.GetBytes("mysecretkey12345");
+        _iv = Encoding.UTF8.GetBytes("myiv123456789012");
         _storeName = "";
     }
    
@@ -40,51 +40,66 @@ public class LoginUser{
     // Run Login
     public void RunLogin() 
     {
-        Console.WriteLine("Welcome to Inventory Systemy\n");
-        Console.WriteLine(" 1. Login Up");
-        Console.WriteLine(" 2. Sign Up");
-        Console.WriteLine(" 3. Exit");
-        Console.Write("\nPlease choose a option: ");
-        string option = Console.ReadLine().ToLower();
-        switch(option)
+        bool exitProgram = false;
+        while(!exitProgram)
         {
-            case "1":
-                _usersList = ReadUsersFromFile();
-                bool loginSuccesfull = false;
-                while (!loginSuccesfull) 
-                {
-                    // Prompt user for login information
-                    Console.Clear();
-                    Console.WriteLine("Welcome to the authentication system\n");
-                    Console.Write(" Enter your username or email: ");
-                    _nameUser = Console.ReadLine();
-                    Console.Write(" Enter your password: ");
-                    string password = ReadPassword();
-                    string encryptPassword = EncryptString(password, key, iv);
-                    // Find user with matching credentials
-                    User user = _usersList.Find(u => u.NameUser == _nameUser || u.UserEmail == _nameUser && u.PasswordUser == encryptPassword);
-                    if (user != null) {
-                        // Display welcome message and store user information
-                        Console.WriteLine($"\nWelcome, {user.FirstName}!");
-                        _nameUser = user.NameUser;
-                        _storeName = user.StoreName;
-                        loginSuccesfull = true;
-                        Thread.Sleep(3000);
+            Console.WriteLine("Welcome to Inventory Systemy\n");
+            Console.WriteLine(" 1. Login Up");
+            Console.WriteLine(" 2. Sign Up");
+            Console.WriteLine(" 3. Exit");
+            Console.Write("\nPlease choose a option: ");
+            string option = Console.ReadLine().ToLower();
+            switch(option)
+            {
+                case "1":
+                    _usersList = ReadUsersFromFile();
+                    bool loginSuccesfull = false;
+                    while (!loginSuccesfull) 
+                    {
+                        // Prompt user for login information
                         Console.Clear();
-                    } else {
-                        // Display error message and try again
-                        Console.WriteLine("\nUsername or password incorrect. Please try again.");
-                        Thread.Sleep(3000);
-                        Console.Clear();
+                        Console.WriteLine("Welcome to the authentication system\n");
+                        Console.Write(" Enter your username or email: ");
+                        _nameUser = Console.ReadLine();
+                        Console.Write(" Enter your password: ");
+                        string password = ReadPassword();
+                        string encryptPassword = EncryptString(password, _key, _iv);
+                        // Find user with matching credentials
+                        User user = _usersList.Find(u => (u.NameUser == _nameUser || u.UserEmail == _nameUser) && u.PasswordUser == encryptPassword);
+                        if (user != null) {
+                            // Display welcome message and store user information
+                            Console.WriteLine($"\nWelcome, {user.FirstName}!");
+                            _nameUser = user.NameUser;
+                            _storeName = user.StoreName;
+                            loginSuccesfull = true;
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        } else {
+                            // Display error message and try again
+                            Console.WriteLine("\nUsername or password incorrect. Please try again.");
+                            Thread.Sleep(3000);
+                            Console.Clear();
+                        }
                     }
-                }
-                _loginIsComplete = true;
-                break;
-            case "2":
-                // Read users from file and create a new user
-                _usersList = ReadUsersFromFile();
-                CreateUser();
-                break;
+                    _loginIsComplete = true;
+                    exitProgram = true;
+                    break;
+                case "2":
+                    // Read users from file and create a new user
+                    _usersList = ReadUsersFromFile();
+                    CreateUser();
+                    exitProgram = false;
+                    break;
+                case "3":
+                    Console.WriteLine("Thanks for use the program");
+                    exitProgram = false;
+                    break;  
+                default: // Default case if an invalid option is selected
+                    Console.WriteLine("\nInvalid option. Please try again.");
+                    Thread.Sleep(3000);
+                    Console.Clear();
+                    break;
+            }
         }
     }
     // Read users from file
@@ -112,7 +127,7 @@ public class LoginUser{
         _newUserName = Console.ReadLine();
         Console.Write("Enter password: ");
         string password = ReadPassword();
-        string encryptPassword = EncryptString(password, key, iv);
+        string encryptPassword = EncryptString(password, _key, _iv);
         Console.Write("Enter First Name: ");
         string firstName = Console.ReadLine();
         Console.Write("Enter Last Name: ");
@@ -140,6 +155,8 @@ public class LoginUser{
             _usersList.Add(newUser);
             WriteUsersToFile(_usersList);
             Console.WriteLine("New user added successfully!");
+            Thread.Sleep(3000);
+            Console.Clear();
         } else{
             Console.WriteLine("This user already exist, please create another user");
         } 

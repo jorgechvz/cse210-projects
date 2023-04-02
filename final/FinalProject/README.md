@@ -32,6 +32,9 @@ A list of libraries used within the project:
 * [ConsoleTableExt](ConsoleTableExt): Version 3.2 
 * [Newtonsoft.Json](Newtonsoft.Json): Version 13.0.3
 * [ConsoleTables](ConsoleTables): Version 2.4.2
+* [System.Security.Cryptography]
+* [System.Text]
+* [System.Globalization]
 
 ## Contributing
 This is a program under construction so you can help by giving me your comments on what I can improve or what features I can implement

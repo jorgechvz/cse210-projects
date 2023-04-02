@@ -8,3 +8,11 @@ Password: jorge
 User: admin01
 Email: ryder@gmail.com
 Password: admin01
+
+User: admin02
+Email: morgan@gmail.com
+Password: admin02
+
+User: admin03
+Email: mckenzie@mcstore.com
+Password: admin03
