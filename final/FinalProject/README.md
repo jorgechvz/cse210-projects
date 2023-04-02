@@ -11,6 +11,7 @@ The system will help streamline inventory management and minimize the risk of st
 ## Screenshots
 ![Authentication](images/Login.png)
 ![Login](images/Login_2.png)
+![Main Menu](images/Main_menu.png)
 
 ## Getting Started
 Instructions on how to download, install, and run the application.
