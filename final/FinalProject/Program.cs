@@ -10,6 +10,7 @@ class Program
         login.RunLogin();
         if (login.GetLoginIsComplete())
         {
+            // Establish the USA culture
             CultureInfo.CurrentCulture = new CultureInfo("en-US");
             Inventory _inventory = new Inventory();
             _inventory.SetListProducts(_inventory.LoadInventoryData(login.GetNameUser()));

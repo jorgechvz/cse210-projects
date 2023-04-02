@@ -412,14 +412,14 @@ public class Inventory
             var data = JsonConvert.DeserializeAnonymousType(json, new { Inventory = new List<Product>()}, settingsLoad);
             // Assign the list of products to the local variables
             List<Product> product = data.Inventory;
-            // Return the list of goals
+            // Return the list of products
             return product;
         }
         catch
         {
             // If an exception occurs, display an error message on the console
             Console.WriteLine($"You still do not have products in your inventory, please add them.\n");
-            // Return an empty list of goals
+            // Return an empty list of products
             return new List<Product>();
         }
     }
